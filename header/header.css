@@ -1,0 +1,12 @@
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+header {
+    height: 7rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

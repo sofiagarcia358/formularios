@@ -20,7 +20,7 @@ formularios.forEach(itemLista =>{
 
     let div_new = document.createElement("a");
     div_new.className = "item";
-    div_new.href =itemLista.link; //del objeto, muesta el .link, solo el link
+    div_new.href =itemLista.link; //itemLista=es el objeto, .link, es algo especifico, en este caso el link
     div_new.innerText = itemLista.nombre;//.nombre, es porque solo deseo ver el nombre, y itemLista, solo muestra el objeto y el .nombre
 
     div_formulario.appendChild(div_new)

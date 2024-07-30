@@ -9,9 +9,12 @@ div_formulario.className = "div_formularios";
 //para crear un objeto se necesitan llaves
 let formularios = [
     {nombre:"Login", link:"componentes/Login/Login.html"},
-    {nombre:"Login", link:"#"},
-    {nombre:"Login", link:"#"},
-    {nombre:"Login", link:"#"}, 
+    {nombre:"Formulario De Contacto", link:"componentes/formularioDeContacto/formularioDeContacto.html"},
+    {nombre:"Formulario De Registro", link:"componentes/formularioDeRegistro/formularioDeRegistro.html"},
+    {nombre:"Formulario De Búsqueda", link:"componentes/formularioDeBusqueda/formularioDeBusqueda.html"},
+    {nombre:"Formulario De Pedido Compras", link:"componentes/formularioDePedidoCompras/formularioDePedidoCompras.html"},
+    {nombre:"formulario De Comentarios Reseñas", link:"componentes/formularioDeComentariosReseñas/formularioDeComentariosReseñas.html"},
+     
 ];
 
 

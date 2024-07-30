@@ -67,3 +67,52 @@
     align-self: center;
     font-size: 1.5rem;
 }
+
+#login{
+    grid-column: 1/9;
+}
+
+#login label{
+    color: gray;
+
+    display: flex;
+    flex-direction: column;
+}
+#login input{
+    height: 4rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(5, 65, 38);
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#login .opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#login .opciones label{
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#login .opciones label input{
+    width: 2rem;
+}
+#login .botones{
+    height: 0.5rem;
+    padding: 1rem;
+}
+#login .botones button{
+    padding: 2rem;
+    width: 10rem;
+    height: 0.5rem;
+    border-radius: 1rem;
+
+}
+#login .botones .btn-login{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); 
+}

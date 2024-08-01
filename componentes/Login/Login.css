@@ -7,7 +7,7 @@
     margin-top: 5%;
 
     display: grid;
-    grid-template-columns: 48rem auto;
+    grid-template-columns: 60rem auto;
     grid-template-rows: 60rem;
     gap: 1rem;
 }
@@ -108,11 +108,23 @@
 }
 #login .botones button{
     padding: 2rem;
-    width: 10rem;
-    height: 0.5rem;
-    border-radius: 1rem;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    color:black;
+    font-weight: 600;
+    justify-content: space-around;
 
 }
 #login .botones .btn-login{
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); 
+}
+.banner{
+    height: 59.9rem;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
 }
